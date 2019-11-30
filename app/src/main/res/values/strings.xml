@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PracticaEddySanchez</string>
+    <string name="texto_button_login" translatable="false">login</string>
+    <string name="texto_button_guardar" translatable="false">guardar</string>
+    <string name="texto_button_buscar" translatable="false">buscar</string>
+    <string name="texto_button_pasar_parametro" translatable="false">pasar parametro</string>
+    <string name="edit_text_pasar_parametro" translatable="false">Escriba una frase</string>
+    <string name="texto_button_parametro" translatable="false">pasar parametro</string>
+</resources>

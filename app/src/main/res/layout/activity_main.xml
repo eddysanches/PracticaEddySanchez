@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Anterior"
+        android:text="@string/texto_button_login"></Button>
+
+    <Button
+        android:id="@+id/buttonguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Guardar"
+        android:text="@string/texto_button_guardar"></Button>
+
+    <Button
+        android:id="@+id/buttonbuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Buscar"
+        android:text="@string/texto_button_buscar"></Button>
+
+    <Button
+        android:id="@+id/buttonPasarParametro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="parametro"
+        android:text="@string/texto_button_pasar_parametro"></Button>
+
+</LinearLayout>
